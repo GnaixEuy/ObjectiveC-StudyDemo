@@ -7,11 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F0FD1CA2747FD54002F5342 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FD1C92747FD54002F5342 /* main.m */; };
+		1FA5A65A2748D989009FCD5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA5A6592748D989009FCD5D /* main.m */; };
+		1FA5A6672748D9E3009FCD5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA5A6662748D9E3009FCD5D /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		1F0FD1C42747FD54002F5342 /* CopyFiles */ = {
+		1FA5A6502748D92A009FCD5D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		1FA5A65D2748D9A9009FCD5D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +33,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1F0FD1C62747FD54002F5342 /* Objective—C StudyDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Objective—C StudyDemo"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F0FD1C92747FD54002F5342 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1FA5A6522748D92A009FCD5D /* 01-对象多定义和基础方法声明 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "01-对象多定义和基础方法声明"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FA5A6592748D989009FCD5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../../main.m; sourceTree = "<group>"; };
+		1FA5A65F2748D9A9009FCD5D /* 02-对象访问自身属性 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "02-对象访问自身属性"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FA5A6662748D9E3009FCD5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1F0FD1C32747FD54002F5342 /* Frameworks */ = {
+		1FA5A64F2748D92A009FCD5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FA5A65C2748D9A9009FCD5D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,7 +60,8 @@
 		1F0FD1BD2747FD54002F5342 = {
 			isa = PBXGroup;
 			children = (
-				1F0FD1C82747FD54002F5342 /* Objective—C StudyDemo */,
+				1FA5A64D2748D8C2009FCD5D /* 02-对象访问自身属性 */,
+				1F0FD1C82747FD54002F5342 /* 01-对象多定义和基础方法声明 */,
 				1F0FD1C72747FD54002F5342 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,37 +69,63 @@
 		1F0FD1C72747FD54002F5342 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1F0FD1C62747FD54002F5342 /* Objective—C StudyDemo */,
+				1FA5A6522748D92A009FCD5D /* 01-对象多定义和基础方法声明 */,
+				1FA5A65F2748D9A9009FCD5D /* 02-对象访问自身属性 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1F0FD1C82747FD54002F5342 /* Objective—C StudyDemo */ = {
+		1F0FD1C82747FD54002F5342 /* 01-对象多定义和基础方法声明 */ = {
 			isa = PBXGroup;
 			children = (
-				1F0FD1C92747FD54002F5342 /* main.m */,
+				1FA5A6592748D989009FCD5D /* main.m */,
 			);
-			path = "Objective—C StudyDemo";
+			path = "01-对象多定义和基础方法声明";
+			sourceTree = "<group>";
+		};
+		1FA5A64D2748D8C2009FCD5D /* 02-对象访问自身属性 */ = {
+			isa = PBXGroup;
+			children = (
+				1FA5A6662748D9E3009FCD5D /* main.m */,
+			);
+			path = "02-对象访问自身属性";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1F0FD1C52747FD54002F5342 /* Objective—C StudyDemo */ = {
+		1FA5A6512748D92A009FCD5D /* 01-对象多定义和基础方法声明 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F0FD1CD2747FD54002F5342 /* Build configuration list for PBXNativeTarget "Objective—C StudyDemo" */;
+			buildConfigurationList = 1FA5A6562748D92A009FCD5D /* Build configuration list for PBXNativeTarget "01-对象多定义和基础方法声明" */;
 			buildPhases = (
-				1F0FD1C22747FD54002F5342 /* Sources */,
-				1F0FD1C32747FD54002F5342 /* Frameworks */,
-				1F0FD1C42747FD54002F5342 /* CopyFiles */,
+				1FA5A64E2748D92A009FCD5D /* Sources */,
+				1FA5A64F2748D92A009FCD5D /* Frameworks */,
+				1FA5A6502748D92A009FCD5D /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Objective—C StudyDemo";
-			productName = "Objective—C StudyDemo";
-			productReference = 1F0FD1C62747FD54002F5342 /* Objective—C StudyDemo */;
+			name = "01-对象多定义和基础方法声明";
+			productName = "01-对象多定义和基础方法声明";
+			productReference = 1FA5A6522748D92A009FCD5D /* 01-对象多定义和基础方法声明 */;
+			productType = "com.apple.product-type.tool";
+		};
+		1FA5A65E2748D9A9009FCD5D /* 02-对象访问自身属性 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FA5A6632748D9A9009FCD5D /* Build configuration list for PBXNativeTarget "02-对象访问自身属性" */;
+			buildPhases = (
+				1FA5A65B2748D9A9009FCD5D /* Sources */,
+				1FA5A65C2748D9A9009FCD5D /* Frameworks */,
+				1FA5A65D2748D9A9009FCD5D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02-对象访问自身属性";
+			productName = "02-对象访问自身属性";
+			productReference = 1FA5A65F2748D9A9009FCD5D /* 02-对象访问自身属性 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -91,7 +137,10 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					1F0FD1C52747FD54002F5342 = {
+					1FA5A6512748D92A009FCD5D = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					1FA5A65E2748D9A9009FCD5D = {
 						CreatedOnToolsVersion = 13.1;
 					};
 				};
@@ -109,17 +158,26 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1F0FD1C52747FD54002F5342 /* Objective—C StudyDemo */,
+				1FA5A6512748D92A009FCD5D /* 01-对象多定义和基础方法声明 */,
+				1FA5A65E2748D9A9009FCD5D /* 02-对象访问自身属性 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1F0FD1C22747FD54002F5342 /* Sources */ = {
+		1FA5A64E2748D92A009FCD5D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F0FD1CA2747FD54002F5342 /* main.m in Sources */,
+				1FA5A65A2748D989009FCD5D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FA5A65B2748D9A9009FCD5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA5A6672748D9E3009FCD5D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,7 +295,7 @@
 			};
 			name = Release;
 		};
-		1F0FD1CE2747FD54002F5342 /* Debug */ = {
+		1FA5A6572748D92A009FCD5D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -247,7 +305,27 @@
 			};
 			name = Debug;
 		};
-		1F0FD1CF2747FD54002F5342 /* Release */ = {
+		1FA5A6582748D92A009FCD5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q57R8D23YS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1FA5A6642748D9A9009FCD5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q57R8D23YS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1FA5A6652748D9A9009FCD5D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -269,11 +347,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1F0FD1CD2747FD54002F5342 /* Build configuration list for PBXNativeTarget "Objective—C StudyDemo" */ = {
+		1FA5A6562748D92A009FCD5D /* Build configuration list for PBXNativeTarget "01-对象多定义和基础方法声明" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1F0FD1CE2747FD54002F5342 /* Debug */,
-				1F0FD1CF2747FD54002F5342 /* Release */,
+				1FA5A6572748D92A009FCD5D /* Debug */,
+				1FA5A6582748D92A009FCD5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FA5A6632748D9A9009FCD5D /* Build configuration list for PBXNativeTarget "02-对象访问自身属性" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FA5A6642748D9A9009FCD5D /* Debug */,
+				1FA5A6652748D9A9009FCD5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
